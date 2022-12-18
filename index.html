@@ -1,0 +1,17 @@
+<html>
+    <head>
+        
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Pig Latin Translator</h1>
+    
+        <h2>Your answer is: <br><span id="answer"></span></h2>
+    
+        <div class="title"><b>Write your text here</b><br></div>
+        <input type="text" id="test-input" placeholder="Hello world" onkeypress="return blockSpecialChar(event)"/>
+        <br>
+        <button id="submit-button" type="submit" onclick="pl()">OK</button>
+    </body>
+</html>
